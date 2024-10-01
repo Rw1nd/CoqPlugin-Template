@@ -1,0 +1,26 @@
+DECLARE PLUGIN "coq-xxxxx.plugin"
+
+{
+
+open Ltac_plugin
+open Stdarg
+
+}
+
+
+
+VERNAC COMMAND EXTEND Comptyp CLASSIFIED AS QUERY
+| [ "Cmd" constr(e1)] ->
+  { 
+    let env = Global.env() in 
+    let sigma = Evd.from_env env in
+    let (sigma, t1) = Constrintern.interp_constr_evars env sigma e1 in
+    Some.show env sigma t1
+  }
+END
+
+TACTIC EXTEND Proofreuse_proofre
+| [ "Tac1" ] ->
+  { Proofview.tclUNIT () }
+
+END

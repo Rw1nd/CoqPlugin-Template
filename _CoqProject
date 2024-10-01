@@ -1,0 +1,11 @@
+src/META.coq-xxxxx
+-R theories Xxxxx
+-I src
+
+theories/Loader.v
+theories/Demo.v
+
+src/some.ml
+src/some.mli
+src/g_xxxxx.mlg
+src/xxxxx_plugin.mlpack

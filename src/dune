@@ -1,0 +1,10 @@
+(library
+ (name xxxxx_plugin)
+ (public_name coq-xxxxx.plugin)
+ (libraries coq-core.plugins.ltac coq-core.lib))
+
+(coq.pp (modules g_xxxxx))
+
+(env
+  (dev
+    (flags (:standard -w -32-27))))

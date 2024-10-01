@@ -1,0 +1,11 @@
+package "plugin" (
+    directory = "."
+    version = "dev"
+    description = "A plugin"
+    requires = "coq-core.plugins.ltac"
+    archive(byte) = "xxxxx_plugin.cma"
+    archive(native) = "xxxxx_plugin.cmxa"
+    plugin(byte) = "xxxxx_plugin.cma"
+    plugin(native) = "xxxxx_plugin.cmxs"
+)
+directory = "."
