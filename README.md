@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is the template of Coq plugin. The project is inspired by the [Coq plugin tutorial](https://github.com/coq/coq/tree/master/doc/plugin_tutorial).
+This repository is the template of Coq plugin. The project is inspired by the [Coq plugin tutorial](https://github.com/coq/coq/tree/master/doc/plugin_tutorial). See more information in my [blog](https://rw1nd.github.io/coq-plugin-template.html).
 
 ## Build Requirements
 
