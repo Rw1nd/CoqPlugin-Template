@@ -10,7 +10,6 @@ This repository is the template of Coq plugin. The project is inspired by the [C
 
 `Coq` : `8.19.1`
 
-`opam-lsp` : `1.17.0`
 
 ### Build and install procedure
 
